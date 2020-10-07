@@ -4285,7 +4285,7 @@
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = "$(OSX_LIBRARY_SEARCH_PATHS)";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				ONLY_ACTIVE_ARCH = YES;
 				OSX_HEADERS_SEARCH_PATHS = "\"$(SRCROOT)/../src/core/basetypes/icu-ucsdet/include\" \"$(SRCROOT)/../Externals/libetpan-osx/include\" \"$(SRCROOT)/../Externals/ctemplate-osx/include\" /usr/include/tidy /usr/include/libxml2";
 				OSX_LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Externals/libetpan-osx/lib\" \"$(SRCROOT)/../Externals/ctemplate-osx/lib\" \"$(SRCROOT)/../Externals/openssl-osx/lib\"";
@@ -4330,7 +4330,7 @@
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = "$(OSX_LIBRARY_SEARCH_PATHS)";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				OSX_HEADERS_SEARCH_PATHS = "\"$(SRCROOT)/../src/core/basetypes/icu-ucsdet/include\" \"$(SRCROOT)/../Externals/libetpan-osx/include\" \"$(SRCROOT)/../Externals/ctemplate-osx/include\" /usr/include/tidy /usr/include/libxml2";
 				OSX_LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Externals/libetpan-osx/lib\" \"$(SRCROOT)/../Externals/ctemplate-osx/lib\" \"$(SRCROOT)/../Externals/openssl-osx/lib\"";
 			};
@@ -4341,7 +4341,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = MailCore;
 				SDKROOT = macosx;
 			};
@@ -4352,7 +4352,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = MailCore;
 				SDKROOT = macosx;
 			};
@@ -4361,7 +4361,7 @@
 		C64EA799169F259300778456 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -4370,7 +4370,7 @@
 		C64EA79A169F259300778456 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -4555,7 +4555,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "framework-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				OSX_LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Externals/libetpan-osx/lib\" \"$(SRCROOT)/../Externals/ctemplate-osx/lib\"";
 				OTHER_LDFLAGS = (
 					"-lctemplate",
@@ -4590,7 +4590,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "framework-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				OSX_LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Externals/libetpan-osx/lib\" \"$(SRCROOT)/../Externals/ctemplate-osx/lib\"";
 				OTHER_LDFLAGS = (
 					"-lctemplate",
