@@ -4567,6 +4567,7 @@
 					"-ltidy",
 					"-lz",
 					"-lresolv",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.libmailcore.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MailCore;
@@ -4601,6 +4602,7 @@
 					"-ltidy",
 					"-lz",
 					"-lresolv",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.libmailcore.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MailCore;
